@@ -18,8 +18,8 @@ module.exports = {
 				},
 				white: {
 					DEFAULT: "#FFFFFF",
-					100: "#FAFAFC",
-					200: "#F3F4F8",
+					100: "#FAFAFC", //lightWhite
+					200: "#F3F4F8", //offWhite
 				},
 				black: {
 					DEFAULT: "#000",
@@ -28,6 +28,7 @@ module.exports = {
 				},
 				red: "#e81e4d",
 				green: " #00C135",
+				tertiary: "#0078a6",
 			},
 			fontFamily: {
 				pthin: ["Poppins-Thin", "sans-serif"],
