@@ -1,7 +1,8 @@
-import { View } from "react-native";
+import { ScrollView, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { sizes } from "../constants/theme";
 import HomeHeader from "../components/HomeHeader";
+import CategoryList from "../components/CategoryList";
 
 const Home = () => {
 	return (
@@ -12,6 +13,12 @@ const Home = () => {
 					style={{ height: sizes.height - 80 }}
 				>
 					<HomeHeader />
+					<ScrollView
+						className="rounded-b-3xl"
+						showsVerticalScrollIndicator={false}
+					>
+						<CategoryList />
+					</ScrollView>
 				</View>
 			</View>
 		</SafeAreaView>
